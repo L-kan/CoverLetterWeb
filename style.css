@@ -1,0 +1,149 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: PunkKid;
+    src: url(fonts/PunkKid/punkkid.ttf);
+}
+nav{
+    background-image: url(images/b9783a4f1f7419d18dc46b46e0d258a2.jpg);
+    display: flex;
+    justify-content: right;
+    padding-top: 60px;
+   
+
+}
+nav a{
+    font-family: PunkKid;
+    font-size:35px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    border-style: inset;
+    
+}
+nav a:hover{
+    transform: scale(1.2) rotate(-15deg);
+}
+
+nav a:visited {
+    color: black;
+}
+
+footer{
+    background-image: url(images/8991bfdc5a4aff11e249187195b30dff.jpg);
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    font-family: PunkKid;
+    font-size:35px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 20px;
+    border-style:outset;
+}
+
+#introduction {
+    background-image: url(images/88902e892d8cbcd90acafc738c97c117.jpg);
+    border-style: outset;
+}
+
+#myimages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#myimages img {
+    border-style: outset;
+    border-width: 15px;
+}
+
+#introduction h1, #introduction h2, #introduction h3, #introduction p {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fffff3;
+}
+
+#introduction{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.8);
+    background-color: rgb(10, 228, 228);
+}
+
+#refweb a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#refweb .hover-container {
+    transition: transform 0.2s ease;
+}
+
+#refweb .hover-container:hover {
+    transform: scale(1.04);
+    #refweb a{
+        color: red;
+    }
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/495906fc8842dea8762b2a442ea3ba81.jpg);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.card ul, .card dl {
+    margin: 0;
+    padding: 0;
+    list-style:circle;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card li, .card dd {
+    margin-bottom: 10px;
+
+}
+
+.cardForm {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/00abc93b229703bed17f6aa413acb2d6.jpg);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
